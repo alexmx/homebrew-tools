@@ -1,8 +1,8 @@
 class Peek < Formula
   desc "See and control any macOS app via accessibility API"
   homepage "https://github.com/alexmx/peek"
-  url "https://github.com/alexmx/peek/releases/download/v1.0.0-rc2/peek-1.0.0-rc2-macos.zip"
-  sha256 "dc155f0c37291ce75a2844f4c68a6199fe5fed3756e139e81620bf4c10420394"
+  url "https://github.com/alexmx/peek/releases/download/v1.0.0/peek-1.0.0-macos.zip"
+  sha256 "ad9563145a5a78357f319d622170d7fed8f0c0c0133f25ad9e672403c2e73300"
   license "MIT"
 
   depends_on macos: :sequoia
