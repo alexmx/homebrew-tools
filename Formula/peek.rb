@@ -1,25 +1,18 @@
 class Peek < Formula
   desc "See and control any macOS app via accessibility API"
   homepage "https://github.com/alexmx/peek"
-  url "https://github.com/alexmx/peek/archive/refs/tags/v1.0.0.tar.gz"
+  url "https://github.com/alexmx/peek/releases/download/v1.0.0/peek-1.0.0-macos.zip"
   sha256 "PLACEHOLDER_UPDATE_ON_FIRST_RELEASE"
-  license "MIT"  # Update if using different license
-  head "https://github.com/alexmx/peek.git", branch: "main"
+  license "MIT"
 
-  depends_on xcode: ["15.0", :build]
-  depends_on macos: :sequoia  # macOS 15+
+  depends_on macos: :sequoia
 
   def install
-    system "swift", "build",
-           "-c", "release",
-           "--disable-sandbox",
-           "--arch", "arm64",
-           "--arch", "x86_64"
-    bin.install ".build/apple/Products/Release/peek"
+    bin.install "peek"
   end
 
   test do
-    assert_match "dev", shell_output("#{bin}/peek --version")
+    assert_match version.to_s, shell_output("#{bin}/peek --version").strip
   end
 
   def caveats
