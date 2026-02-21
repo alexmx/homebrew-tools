@@ -6,6 +6,7 @@ class Xc < Formula
   license "MIT"
 
   depends_on macos: :sequoia
+  depends_on "xcbeautify" => :recommended
 
   def install
     bin.install "xc"
