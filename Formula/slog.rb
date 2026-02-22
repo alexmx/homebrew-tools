@@ -1,5 +1,5 @@
 class Slog < Formula
-  desc "Swift CLI tool for intercepting and filtering macOS/iOS logs"
+  desc "Stream, filter, and query macOS and iOS logs"
   homepage "https://github.com/alexmx/slog"
   url "https://github.com/alexmx/slog/releases/download/v1.0.0/slog-1.0.0-macos.zip"
   sha256 "f5cca4a91714b1b9308df4ef61aea165063f3148a4674869489600436b63c055"
