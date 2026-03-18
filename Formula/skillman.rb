@@ -5,11 +5,11 @@ class Skillman < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/alexmx/skillman/releases/download/v0.1.1/skillman-darwin-arm64-0.1.1.zip"
-      sha256 "17236db215742788643656f3804b166b55b38a55597694aebb96df8f22889de2"
+      url "https://github.com/alexmx/skillman/releases/download/v0.2.0/skillman-darwin-arm64-0.2.0.zip"
+      sha256 "969c9abf25ab4fcbf9faab1c79d69e77109efb225e0c1ffcb2d18bdd725ee8ad"
     else
-      url "https://github.com/alexmx/skillman/releases/download/v0.1.1/skillman-darwin-amd64-0.1.1.zip"
-      sha256 "127874729fd085eb3046b40d53aee247ed5e8ea4a009a47f1b09998ce2542945"
+      url "https://github.com/alexmx/skillman/releases/download/v0.2.0/skillman-darwin-amd64-0.2.0.zip"
+      sha256 "b8ea2792cd8366bd4a8b4ef2aa0c88ec63e0e92f8034eed104f0aa688d27c352"
     end
   end
 
