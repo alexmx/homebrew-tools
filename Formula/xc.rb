@@ -1,8 +1,8 @@
 class Xc < Formula
   desc "A better way to run xcodebuild"
   homepage "https://github.com/alexmx/xc"
-  url "https://github.com/alexmx/xc/releases/download/v1.1.1/xc-1.1.1-macos.zip"
-  sha256 "e75474db7439e20e2859d02ca7447778160c8945dd171717b1a9ff6907d93312"
+  url "https://github.com/alexmx/xc/releases/download/v1.1.2/xc-1.1.2-macos.zip"
+  sha256 "01a330eabed4d8c599b3304c280d498df971119bef24bc0d7123e4484154f6d2"
   license "MIT"
 
   depends_on macos: :sequoia
