@@ -1,8 +1,8 @@
 class Slog < Formula
   desc "Stream, filter, and query macOS and iOS logs"
   homepage "https://github.com/alexmx/slog"
-  url "https://github.com/alexmx/slog/releases/download/v1.5.0/slog-1.5.0-macos.zip"
-  sha256 "7add647acc88d69cb704ffe49143646c5937bdf92b2eaa81082a4e30bee26f63"
+  url "https://github.com/alexmx/slog/releases/download/v1.5.1/slog-1.5.1-macos.zip"
+  sha256 "c36cedb7bb4e311f2d931b7d78069e8c861dd71f920c34a2cb45b64de06edc3a"
   license "MIT"
 
   depends_on macos: :sequoia
