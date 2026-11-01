@@ -1,8 +1,8 @@
 class Llmdb < Formula
   desc "Debug any Mac or iOS Simulator app from your terminal or your AI agent"
   homepage "https://github.com/alexmx/llmdb"
-  url "https://github.com/alexmx/llmdb/releases/download/v0.3.0/llmdb-0.3.0-macos.zip"
-  sha256 "e23e1d647b7467df01c36b5c60be03f533110de6c6f3869705f9ad9421d31ff2"
+  url "https://github.com/alexmx/llmdb/releases/download/v0.3.1/llmdb-0.3.1-macos.zip"
+  sha256 "ea686c2f09fffd184fc7efd42f370bb17af2c2ef9e76ecab0ab44b539e810cec"
   license "MIT"
 
   depends_on macos: :sequoia
