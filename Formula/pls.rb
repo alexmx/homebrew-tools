@@ -1,8 +1,8 @@
 class Pls < Formula
   desc "Ask for your own scripts in plain words, with Apple's on-device model"
   homepage "https://github.com/alexmx/pls"
-  url "https://github.com/alexmx/pls/releases/download/v0.0.0/pls-0.0.0-macos.zip"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  url "https://github.com/alexmx/pls/releases/download/v0.1.0/pls-0.1.0-macos.zip"
+  sha256 "8e38280a5e5ec4fdc291d9da93b52df055ca7b75db520d81f5337d982551888e"
   license "MIT"
 
   depends_on arch: :arm64
