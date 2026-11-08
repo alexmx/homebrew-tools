@@ -1,5 +1,5 @@
 class Pls < Formula
-  desc "Run your own automations by name or in plain words, with Apple's on-device model"
+  desc "Ask for your own scripts in plain words, with Apple's on-device model"
   homepage "https://github.com/alexmx/pls"
   url "https://github.com/alexmx/pls/releases/download/v0.0.0/pls-0.0.0-macos.zip"
   sha256 "0000000000000000000000000000000000000000000000000000000000000000"
@@ -18,10 +18,14 @@ class Pls < Formula
 
   def caveats
     <<~EOS
-      Requests in plain words need Apple Intelligence; without it pls matches by words.
-      Put your automations in ~/.config/pls/automations, then check them with:
+      Start with everyday automations, then ask for one:
 
-        pls doctor
+        pls collection add alexmx/pls-automations
+        pls collection enable my-ip
+        pls "what's my ip"
+
+      Your own automations go in ~/.config/pls/automations; `pls doctor` checks them.
+      Requests in plain words need Apple Intelligence; without it pls matches by words.
     EOS
   end
 end
